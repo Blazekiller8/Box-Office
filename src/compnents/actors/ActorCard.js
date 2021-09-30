@@ -1,8 +1,7 @@
 import React from 'react'
 import { StyledActorCard } from './ActorCard.styled';
 
-const ActorCard = ({ image, name, gender, country, birthday, deathday }) => {
-    return (
+const ActorCard = ({ image, name, gender, country, birthday, deathday }) => (
       <StyledActorCard>
         <div className="img-wrapper">
           <img src={image} alt="actor" />
@@ -15,6 +14,5 @@ const ActorCard = ({ image, name, gender, country, birthday, deathday }) => {
         <p className="deathday">{deathday ? `Died ${deathday}` : 'Alive'}</p>
       </StyledActorCard>
     );
-  };
 
 export default ActorCard

@@ -1,7 +1,6 @@
 import React from 'react'
 
-const Details = ({ status, premiered, network }) => {
-    return (
+const Details = ({ status, premiered, network }) => (
       <Details>
         <p>
           Status: <span>{status}</span>
@@ -10,7 +9,6 @@ const Details = ({ status, premiered, network }) => {
           Premiered {premiered} {network ? `on ${network.name}` : null}
         </p>
       </Details>
-    );
-  };  
+    );  
 
 export default Details

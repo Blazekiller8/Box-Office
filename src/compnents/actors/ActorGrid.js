@@ -2,8 +2,7 @@ import React from 'react'
 import ActorCard from './ActorCard';
 import IMAGE_NOT_FOUND from '../../images/not-found.png'
 
-const ActorGrid = ({ data }) => {
-    return (
+const ActorGrid = ({ data }) => (
         <div>
             {
                 data.map(({person}) => (
@@ -11,6 +10,5 @@ const ActorGrid = ({ data }) => {
                 ))}
         </div>
     );
-};
 
 export default ActorGrid;

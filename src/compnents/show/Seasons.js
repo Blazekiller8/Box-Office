@@ -1,8 +1,7 @@
 import React from 'react'
 import { SeasonList, SeasonsWrapper } from './Seasons.styled';
 
-const Seasons = ({ seasons }) => {
-    return (
+const Seasons = ({ seasons }) => (
       <SeasonsWrapper>
         <p>
           Seasons in total: <span>{seasons.length}</span>
@@ -32,6 +31,5 @@ const Seasons = ({ seasons }) => {
           ))}
         </SeasonList>
       </SeasonsWrapper>
-    );
-  };  
+    );  
 export default Seasons

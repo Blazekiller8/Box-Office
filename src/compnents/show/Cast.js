@@ -2,8 +2,7 @@ import React from 'react'
 import IMG_PLACEHOLDER from '../../images/not-found.png'
 import { CastList } from './Cast.styled';
 
-const Cast = ({ cast }) => {
-    return (
+const Cast = ({ cast }) => (
       <CastList>
         {cast.map(({ person, character, voice }, key) => (
           <div key={key} className="cast-item" >
@@ -22,7 +21,6 @@ const Cast = ({ cast }) => {
           </div>
         ))}
       </CastList>
-    );
-  };  
+    );  
 
 export default Cast;
