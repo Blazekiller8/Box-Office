@@ -1,5 +1,5 @@
 {
-  "homepage": "https://Blazekiller8.github.io/Box-Office",
+  "homepage": "https://shelooks16.github.io/box-office",
   "name": "box-office",
   "version": "0.1.0",
   "private": true,
@@ -10,7 +10,7 @@
     "gh-pages": "^2.2.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-fade-in": "^1.1.1",
+    "react-fade-in": "^1.0.0",
     "react-router": "^5.2.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1",
